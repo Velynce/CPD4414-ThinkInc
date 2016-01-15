@@ -18,4 +18,7 @@ public class CPD4414ThinkInc {
         // TODO code application logic here
     }
     
+    public static String stringPower(String str, int integer){
+        return null;
+    }
 }
