@@ -19,6 +19,6 @@ public class CPD4414ThinkInc {
     }
     
     public static String stringPower(String str, int integer){
-        return null;
+        return "";
     }
 }
