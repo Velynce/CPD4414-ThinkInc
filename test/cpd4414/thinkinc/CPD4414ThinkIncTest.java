@@ -65,4 +65,22 @@ public class CPD4414ThinkIncTest {
         assertEquals(expResult, result);
     }
     
+    @Test
+    public void testLessThanOneShouldReturnNull() {
+        int integer = -1;
+        String str = "";
+        String expResult = null;
+        String result = CPD4414ThinkInc.stringPower(str,integer);
+        assertEquals(expResult, result);   
+    }
+    
+    @Test
+    public void testStringAndOneShouldReturnString() {
+        int integer = 1;
+        String str = "Sample";
+        String expResult = "Sample";
+        String result = CPD4414ThinkInc.stringPower(str, integer);
+        assertEquals(expResult, result);
+    }
+        
 }
