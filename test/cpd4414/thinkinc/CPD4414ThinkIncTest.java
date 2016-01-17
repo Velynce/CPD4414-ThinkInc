@@ -82,5 +82,14 @@ public class CPD4414ThinkIncTest {
         String result = CPD4414ThinkInc.stringPower(str, integer);
         assertEquals(expResult, result);
     }
+    
+    @Test
+    public void testStringAndTwoShouldReturnStringDoubled() {
+        int integer = 2;
+        String str = "bob";
+        String expResult = "bobbob";
+        String result = CPD4414ThinkInc.stringPower(str, integer);
+        assertEquals(expResult, result);
+    }
         
 }
