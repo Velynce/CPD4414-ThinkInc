@@ -36,25 +36,6 @@ public class CPD4414ThinkIncTest {
     @After
     public void tearDown() {
     }
-
-    /**
-     * Test of main method, of class CPD4414ThinkInc.
-     */
-
-
-    /**
-     * Test of stringPower method, of class CPD4414ThinkInc.
-     */
-    @Test
-    public void testStringPower() {
-        System.out.println("stringPower");
-        String str = "";
-        int integer = 0;
-        String expResult = "";
-        String result = CPD4414ThinkInc.stringPower(str, integer);
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-    }
     
     @Test
     public void testEmptyStringShouldReturnEmptyString() {
