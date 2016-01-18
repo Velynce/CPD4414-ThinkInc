@@ -20,7 +20,7 @@ public class CPD4414ThinkInc {
     
     public static String stringPower(String str, int integer){
         String emptyString = "";
-        if(integer < 0) {
+        if(integer < 1) {
             return null;
         } else if(str == "") {
             return "";
