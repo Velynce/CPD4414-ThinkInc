@@ -16,9 +16,9 @@ import static org.junit.Assert.*;
  *
  * @author brad
  */
-public class CPD4414ThinkIncTest {
+public class CPD4414Assignment1ThinkIncTest {
     
-    public CPD4414ThinkIncTest() {
+    public CPD4414Assignment1ThinkIncTest() {
     }
     
     @BeforeClass
@@ -42,7 +42,7 @@ public class CPD4414ThinkIncTest {
         int integer = 42;
         String str = "";
         String expResult = "";
-        String result = CPD4414ThinkInc.stringPower(str, integer);
+        String result = CPD4414Assignment1ThinkInc.stringPower(str, integer);
         assertEquals(expResult, result);
     }
     
@@ -51,7 +51,7 @@ public class CPD4414ThinkIncTest {
         int integer = -1;
         String str = "";
         String expResult = null;
-        String result = CPD4414ThinkInc.stringPower(str,integer);
+        String result = CPD4414Assignment1ThinkInc.stringPower(str,integer);
         assertEquals(expResult, result);   
     }
     
@@ -60,7 +60,7 @@ public class CPD4414ThinkIncTest {
         int integer = 1;
         String str = "Sample";
         String expResult = "Sample";
-        String result = CPD4414ThinkInc.stringPower(str, integer);
+        String result = CPD4414Assignment1ThinkInc.stringPower(str, integer);
         assertEquals(expResult, result);
     }
     
@@ -69,7 +69,7 @@ public class CPD4414ThinkIncTest {
         int integer = 2;
         String str = "bob";
         String expResult = "bobbob";
-        String result = CPD4414ThinkInc.stringPower(str, integer);
+        String result = CPD4414Assignment1ThinkInc.stringPower(str, integer);
         assertEquals(expResult, result);
     }
         

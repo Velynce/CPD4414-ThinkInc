@@ -9,7 +9,7 @@ package cpd4414.thinkinc;
  *
  * @author ventr_000
  */
-public class CPD4414ThinkInc {
+public class CPD4414Assignment1ThinkInc {
 
     /**
      * @param args the command line arguments
@@ -19,15 +19,17 @@ public class CPD4414ThinkInc {
     }
     
     public static String stringPower(String str, int integer){
-        String emptyString = "";
+        StringBuilder returnString = new StringBuilder();
         if(integer < 1) {
+            //If integer is 0 or less, return null
             return null;
-        } else if(integer == 1){
-            return "Sample";
+        } else {
+            //If integer is 1 or more, append str to returnString times the value of integer
+            for (int i=0; i < integer; i++) {
+                returnString.append(str);
+            }
         }
-        else if("".equals(str)) {
-            return "";
-        }
-      return emptyString;
+       //Convert returnString to a string and return.
+      return returnString.toString();
     }
 }
