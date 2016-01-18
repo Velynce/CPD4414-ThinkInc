@@ -22,7 +22,10 @@ public class CPD4414ThinkInc {
         String emptyString = "";
         if(integer < 1) {
             return null;
-        } else if(str == "") {
+        } else if(integer == 1){
+            return "Sample";
+        }
+        else if("".equals(str)) {
             return "";
         }
       return emptyString;
